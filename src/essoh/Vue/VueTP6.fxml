@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="essoh.Controller.ControleurTP6">
+	<bottom>
+	   <GridPane fx:id="monGridPane" gridLinesVisible="true" style="-fx-background-color: rgb(0,0,0);" BorderPane.alignment="CENTER">
+		<children>
+            <TextField prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+				<!--  case laissée noire par omission du TextField :
+				        <TextField prefHeight="40.0" prefWidth="40.0"
+				        		GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				-->
+			 <TextField prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <TextField prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+		</children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+	   </GridPane>
+	</bottom>
+   <top>
+      <MenuBar fx:id="MenuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem id="0" mnemonicParsing="false" text="Grille aleatoire" />
+                  <MenuItem id="1" mnemonicParsing="false" text="Choix de la grille 1" />
+                  <MenuItem id="2" mnemonicParsing="false" text="Choix de la grille 2" />
+                  <MenuItem id="3" mnemonicParsing="false" text="Choix de la grille 3" />
+                  <MenuItem id="4" mnemonicParsing="false" text="Choix de la grille 4" />
+                  <MenuItem id="5" mnemonicParsing="false" text="Choix de la grille 5" />
+                  <MenuItem id="6" mnemonicParsing="false" text="Choix de la grille 6" />
+                  <MenuItem id="7" mnemonicParsing="false" text="Choix de la grille 7" />
+                  <MenuItem id="8" mnemonicParsing="false" text="Choix de la grille 8" />
+                  <MenuItem id="9" mnemonicParsing="false" text="Choix de la grille 9" />
+                  <MenuItem id="10" mnemonicParsing="false" text="Choix de la grille 10" />
+                  <MenuItem id="11" mnemonicParsing="false" text="Quitter" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Aide">
+            <items>
+              <MenuItem mnemonicParsing="false" text="A propos du projet" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
